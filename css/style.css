@@ -1,0 +1,123 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-image: url(../img/1.jpg);
+        }
+        
+        p,
+        input,
+        option,
+        .horo {
+            font-family: 'Amatic SC', cursive;
+        }
+        
+        .title {
+            width: 100%;
+            height: auto;
+            background-color: rgba(255, 240, 211, 0.8);
+            border-bottom: 2px dotted rgb(99, 9, 29);
+        }
+        
+        .title_name {
+            color: rgb(198, 199, 230);
+            font-size: 100px;
+            text-shadow: 3px 3px 3px rgb(65, 25, 32);
+            text-align: center;
+        }
+        
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .main_block {
+            padding: 3px;
+            width: 20%;
+            margin: 30px;
+            background-color: rgb(255, 240, 211);
+            border-radius: 15px;
+            border: 1px dotted rgb(99, 9, 29);
+            text-align: center;
+        }
+        
+        .questions {
+            font-size: 25px;
+            margin: 5px;
+        }
+        
+        .forms {
+            width: 100%;
+            margin: 5px;
+        }
+        
+        input,
+        .horo {
+            width: 80%;
+            height: 25px;
+            border-radius: 15px;
+            background-color: rgb(255, 252, 244);
+            border: 1px dotted rgb(99, 9, 29);
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        input:hover {
+            background-color: rgb(224, 176, 120);
+        }
+        
+        .horo:hover,
+        .but:hover {
+            background-color: rgb(213, 219, 226);
+            cursor: pointer;
+        }
+        
+        option {
+            background-color: navajowhite;
+        }
+        
+        .freizeit {
+            width: 230px;
+            height: 100px;
+        }
+        
+        .photo,
+        .wishes {
+            width: 250px;
+            height: 100px;
+            font-family: 'Amatic SC', cursive;
+            border: 1px dotted rgb(99, 9, 29);
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .wishes:hover {
+            background-color: rgb(224, 176, 120);
+        }
+        
+        footer {
+            width: 100%;
+            height: 50px;
+            border-top: 1px dotted rgb(99, 9, 29);
+            background-color: rgba(255, 240, 211, 0.8);
+            text-align: center;
+        }
+        
+        .buttons {
+            margin: 10px auto;
+        }
+        
+        .but {
+            width: 200px;
+            height: 30px;
+            font-family: 'Amatic SC', cursive;
+            font-size: 20px;
+            background-color: navajowhite;
+            border-top: 1px solid rgb(99, 9, 29);
+        }
