@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <title>Анкета</title>
+</head>
+
+<body>
+    <header class="title">
+        <div class="title_name">
+            <p>АНКЕТА ДЛЯ МОИХ ДРУЗЕЙ</p>
+        </div>
+    </header>
+
+    <form action="#" method="POST">
+        <div class="main">
+
+            <div class="main_block">
+                <div class="questions">
+                    <p>1. Как тебя зовут?</p>
+                </div>
+                <div class="forms"> <input name="name" type="text" placeholder="Имя писать туть"></div>
+            </div>
+
+            <div class="main_block">
+                <div class="questions">
+                    <p>2. Укажи свою дату рождения</p>
+                </div>
+                <div class="forms"> <input type="date" id="date" name="date" /></div>
+            </div>
+
+            <div class="main_block">
+                <div class="questions">
+                    <p>3. Выбери свой знак зодиака</p>
+                </div>
+                <select class="horo">
+                        <option class="opt">Овен</option>
+                        <option>Телец</option>
+                        <option>Близнецы</option>
+                        <option>Рак</option>
+                        <option>Лев</option>
+                        <option>Дева</option>
+                        <option>Весы</option>
+                        <option>Скорпион</option>
+                        <option>Змееносец</option>
+                        <option>Стрелец</option>
+                        <option>Козерог</option>
+                        <option>Водолей</option>
+                        <option>Рыбы</option>
+                        <option>Я в такое не верю</option>
+                      </select>
+            </div>
+
+            <div class="main_block">
+                <div class="questions">
+                    <p>5. Напиши свой номер телефона</p>
+                </div>
+                <div class="forms"> <input name="phone" type="tel" value="+998"></div>
+            </div>
+
+            <div class="main_block">
+                <div class="questions">
+                    <p>5. Чем ты занимаешься?</p>
+                </div>
+                <div>
+                    <p>Учусь</p>
+                    <input name="wid" type="radio">
+                </div>
+                <div>
+                    <p>Работаю</p>
+                    <input name="wid" type="radio">
+                </div>
+                <div>
+                    <p>И то, и другое</p>
+                    <input name="wid" type="radio">
+                </div>
+            </div>
+
+
+            <div class="main_block">
+                <div class="questions">
+                    <p>6. Чем ты занимаешься в свободное время?</p>
+                </div>
+                <div class="forms"> <input class="freizeit" name="hobby" type="text" placeholder="Напиши туть"></div>
+            </div>
+
+            <div class="main_block">
+                <div class="questions">
+                    <p>7. Твои любимые фильмы и сериалы</p>
+                </div>
+                <div class="forms">
+                    <input class="freizeit" name="films" type="text" placeholder="Чегось смотришь?"></div>
+            </div>
+
+            <div class="main_block">
+                <div class="questions">
+                    <p>8. Отметь твою любимую музыку</p>
+                </div>
+                <div>
+                    <p>Рок</p>
+                    <input name="music" type="checkbox">
+                </div>
+                <div>
+                    <p>Рэп</p>
+                    <input name="music" type="checkbox">
+                </div>
+                <div>
+                    <p>Джаз</p>
+                    <input name="music" type="checkbox">
+                </div>
+            </div>
+
+            <div class="main_block">
+                <div class="questions">
+                    <p>9. Место для твоей фоточки:3</p>
+                </div>
+                <div><input class="photo" name="here8" type="file" /> </div>
+            </div>
+
+            <div class="main_block">
+                <div class="questions">
+                    <p>10. Напиши пожелания хозяйке анкеты</p>
+                </div>
+                <div>
+                    <textarea class="wishes" name="here10"></textarea>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <footer>
+            <div class="buttons">
+                <button class="but" type="submit">Сохранить анкету</button>
+
+                <button class="but" type="reset">Сбросить анкету</button>
+
+            </div>
+        </footer>
+    </form>
+</body>
+
+
+</html>
